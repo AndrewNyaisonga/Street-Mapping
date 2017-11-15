@@ -4,14 +4,11 @@
 import java.util.Map.Entry;
 import java.util.*;
 
-/**Apart from distra and other methods, This implementation has been taken directly from the labs and the weis book
- * The variable names has also been adopted*/
 
 public class Map {
 
 
-    //This has been implemented with help from weiss book
-    //The HashMap is the best way to implement the graph in my opinion
+ 
     public static ArrayList<Road> roads;
     public static HashMap<String, Intersection> intersectionMap;
     public static ArrayList<Road> minWeightSpanTree;
@@ -87,7 +84,7 @@ public class Map {
 
     }
 
-    //This is exactly from lab and weis book. No addition made
+   
     public void kruskals() {
 
 
